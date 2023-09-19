@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+body
+{
+    background: whitesmoke;
+}
+
+header 
+{
+    text-align: center;
+    margin: 1.4rem 0rem 1.4rem 0rem;
+    background-color: rgba(0, 255, 255, 0.216);
+    color: rgb(9, 113, 113);
+    border: 2px solid green;   
+}
+
+h2 
+{
+    padding-bottom: 20px;
+}
+
+.parent-div 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e6e9e6;
+    width: 32%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#input-box 
+{
+    padding: 1.6rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 20px 0px 6px 4px #137a19;
+}
+
+input[type=button] 
+{
+    background: rgb(125, 201, 125);
+    padding: 9px;
+    border-radius: 5px;
+    margin: 0px 0px 15px 15px;
+    border: none;
+    box-shadow: 3px 3px 7px #7c7f80;
+}
+
+input[type=button]:hover 
+{
+    background: rgb(62, 158, 62);
+    cursor: pointer;
+}
+
+input[type=reset] 
+{
+    padding: 15px;
+    margin-top: 25px;
+    border: 4px solid green;
+    border-radius: 8px;
+}
+
+input[type=reset]:hover 
+{
+    color: white;
+    background-color:#03770b ;
+    cursor: pointer;
+}
+
+#para-1 
+{
+    background-color: #2e9c2e1f;
+    padding: 12px;
+    border-radius: 44px;
+    width: 26rem;
+    margin-bottom: 0.6rem;
+}
+
+main 
+{
+    text-align: center;
+}
+
+section 
+{
+    margin-top: -19px;
+}
